@@ -1,0 +1,121 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-repeat: repeat-x;
+  background-position: right 20% top 0%;
+  font-family: "Red Hat Display";
+}
+
+main {
+  max-width: 100%;
+  background-color: white;
+  width: 400px;
+  border-radius: 20px 20px 0% 0%;
+  box-shadow: 0 0px 40px rgb(210, 215, 219);
+}
+
+.img--head img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0% 0%;
+  margin-bottom: 1.5em;
+}
+
+.main_container {
+  text-align: center;
+}
+
+.main_container h1 {
+  margin-bottom: 0.5em;
+}
+
+.info_container {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  color: hsl(223, 47%, 23%);
+}
+
+.desc {
+  max-width: 100%;
+  margin-bottom: 1.5em;
+  padding-bottom: 1rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0rem 4rem 0rem 4rem;
+  margin-bottom: 3em;
+}
+
+.change--plan {
+  color: hsl(245, 75%, 52%);
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+}
+
+.price .plan img {
+  width: 2.5em;
+  margin-right: 1em;
+}
+
+.plan .order--price {
+  color: hsl(224, 23%, 55%);
+}
+
+.btn_container {
+  padding: 1rem 1.5rem;
+}
+
+.btn {
+  background-color: hsl(245, 75%, 52%);
+  width: 100%;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn_cancel {
+  margin-bottom: 2em;
+  outline: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0.5;
+  font-weight: 700;
+}
+
+/* HOVER SECTION */
+
+.change--plan:hover {
+  opacity: 0.8;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn_cancel:hover {
+  opacity: 1;
+}
