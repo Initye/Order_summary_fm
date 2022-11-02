@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("pattern-background-desktop.svg");
+  background-image: url("/images/pattern-background-desktop.svg");
   background-repeat: repeat-x;
   background-position: right 20% top 0%;
   font-family: "Red Hat Display";
@@ -118,4 +118,16 @@ main {
 
 .btn_cancel:hover {
   opacity: 1;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 375px) {
+  body {
+    margin: 1rem;
+  }
+
+  .price {
+    margin: 2rem;
+  }
 }
