@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/images/pattern-background-desktop.svg");
+  background-image: url("pattern-background-desktop.svg");
   background-repeat: repeat-x;
   background-position: right 20% top 0%;
   font-family: "Red Hat Display";
